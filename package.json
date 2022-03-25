@@ -1,0 +1,27 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haonguyen3817884/testing.git"
+  },
+  "keywords": ["Hello", "Greeter"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haonguyen3817884/testing/issues"
+  },
+  "homepage": "https://github.com/haonguyen3817884/testing#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3"
+  }
+}
